@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (downloadBtn) {
         downloadBtn.addEventListener("click", function () {
-            const resumeUrl = "resume.pdf"; // Ensure this file exists
+            const resumeUrl = "Rajeswari_Resume.pdf"; // Ensure this file exists
             const a = document.createElement("a");
             a.href = resumeUrl;
             a.download = "Pakki_Rajeswari_Resume.pdf"; // Download file name
